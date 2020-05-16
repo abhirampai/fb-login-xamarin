@@ -1,9 +1,9 @@
 # fb-login-xamarin
-1.Create a xamrin app in visual studio
-2.place the contents of the facebooklogin folder into your portable folder
-3. Copy the Iclearcookies file to the android folder
-4.I have only tested this in android 
-5.For ios you will have to create another Iclearcookies file with the contents
+1.Create a xamrin app in visual studio <br>
+2.place the contents of the facebooklogin folder into your portable folder<br>
+3. Copy the Iclearcookies file to the android folder<br>
+4.I have only tested this in android <br>
+5.For ios you will have to create another Iclearcookies file with the contents<br>
 ```C#
 using WebViewCookiesDemo.iOS;  
 using Xamarin.Forms;  
@@ -20,4 +20,5 @@ namespace WebViewCookiesDemo.iOS {
     }  
 } 
 ```
-Thanks for reading
+<br>
+

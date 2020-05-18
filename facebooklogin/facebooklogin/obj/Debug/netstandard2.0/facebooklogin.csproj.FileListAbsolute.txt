@@ -1,0 +1,12 @@
+C:\Users\ASUS\source\repos\facebooklogin\facebooklogin\facebooklogin\bin\Debug\netstandard2.0\facebooklogin.deps.json
+C:\Users\ASUS\source\repos\facebooklogin\facebooklogin\facebooklogin\bin\Debug\netstandard2.0\facebooklogin.dll
+C:\Users\ASUS\source\repos\facebooklogin\facebooklogin\facebooklogin\obj\Debug\netstandard2.0\facebooklogin.csprojAssemblyReference.cache
+C:\Users\ASUS\source\repos\facebooklogin\facebooklogin\facebooklogin\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\ASUS\source\repos\facebooklogin\facebooklogin\facebooklogin\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\ASUS\source\repos\facebooklogin\facebooklogin\facebooklogin\obj\Debug\netstandard2.0\facebooklogin.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\facebooklogin\facebooklogin\facebooklogin\obj\Debug\netstandard2.0\facebooklogin.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\facebooklogin\facebooklogin\facebooklogin\obj\Debug\netstandard2.0\facebooklogin.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\facebooklogin\facebooklogin\facebooklogin\bin\Debug\netstandard2.0\facebooklogin.pdb
+C:\Users\ASUS\source\repos\facebooklogin\facebooklogin\facebooklogin\obj\Debug\netstandard2.0\facebooklogin.dll
+C:\Users\ASUS\source\repos\facebooklogin\facebooklogin\facebooklogin\obj\Debug\netstandard2.0\facebooklogin.pdb
+C:\Users\ASUS\source\repos\facebooklogin\facebooklogin\facebooklogin\obj\Debug\netstandard2.0\View\profile.xaml.g.cs

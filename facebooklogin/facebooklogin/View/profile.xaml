@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Name="profile1"
+             x:Class="facebooklogin.View.profile"
+             >
+    <ScrollView>
+    <Grid VerticalOptions="FillAndExpand">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+            <StackLayout Orientation="Horizontal" Spacing="20" HorizontalOptions="Center" VerticalOptions="Start" Margin="20,50">
+                <Image x:Name="ProfileDp" HorizontalOptions="Center"/>
+            </StackLayout>
+            <Frame Grid.Row="1" HasShadow="True" CornerRadius="10"  Padding="0"  VerticalOptions="Start">
+                <Grid  >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <StackLayout Grid.Column="1" HorizontalOptions="Start" VerticalOptions="Start">
+                        <Label Text="Name" TextColor="Black" FontSize="10" ></Label>
+                </StackLayout>
+                <StackLayout Grid.Column="2">
+                        <Label x:Name="Name" TextColor="Black" FontSize="10" FontAttributes="Bold"></Label>
+                </StackLayout>
+                </Grid>
+            </Frame>
+            <Frame Grid.Row="2" HasShadow="True" CornerRadius="10"  Padding="0" VerticalOptions="Start">
+                <Grid >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <StackLayout Grid.Column="1" HorizontalOptions="Start" VerticalOptions="Start">
+                        <Label Text="Date Of Birth" TextColor="Black" FontSize="10" ></Label>
+                    </StackLayout>
+                    <StackLayout Grid.Column="2">
+                        <Label x:Name="DOB" TextColor="Black" FontSize="10" FontAttributes="Bold" ></Label>
+                    </StackLayout>
+                </Grid>
+            </Frame>
+            <Frame Grid.Row="3" HasShadow="True" CornerRadius="10"  Padding="0" VerticalOptions="Start">
+                <Grid >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <StackLayout Grid.Column="1" HorizontalOptions="Start" VerticalOptions="Start">
+                        <Label Text="Friends" TextColor="Black" FontSize="10" ></Label>
+                    </StackLayout>
+                    <StackLayout Grid.Column="2">
+                        <Label x:Name="friends" TextColor="Black" FontSize="10" FontAttributes="Bold" ></Label>
+                    </StackLayout>
+                </Grid>
+            </Frame>
+            <StackLayout VerticalOptions="End">
+            <Button x:Name="LogoutButton" Text="Logout" HorizontalOptions="Center" Clicked="LogoutButton_Clicked"></Button>
+            </StackLayout>
+            </Grid>
+    </ScrollView>
+</ContentPage>
